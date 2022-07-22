@@ -15,12 +15,9 @@
   flex-direction: column;
 }
 .content__contact{
-  scrollbar-color: rgb(51, 80, 153) rgba(32, 247, 32, 0.368);
-  scroll-snap-align: inherit;
-   overflow:scroll;
+   overflow-x:scroll;
    height: 240px;
    box-shadow: 0 0 10px 0 rgb(2, 65, 255);
-   /* border: 2px solid rgb(5, 100, 5); */
 }
 .main{
 width: 200px;
@@ -86,4 +83,24 @@ span{
   margin-bottom: 20px;
   border:2px solid rgb(9, 47, 186);
  
+}
+
+
+::-webkit-scrollbar
+{
+	width: 10px;
+  height: 0;
+	background-color: #09040e;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#000000),
+									   to(#030303),
+									   color-stop(.6,#b02401))
 }
