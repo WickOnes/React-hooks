@@ -1,0 +1,89 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.content{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.content__contact{
+  scrollbar-color: rgb(51, 80, 153) rgba(32, 247, 32, 0.368);
+  scroll-snap-align: inherit;
+   overflow:scroll;
+   height: 240px;
+   box-shadow: 0 0 10px 0 rgb(2, 65, 255);
+   /* border: 2px solid rgb(5, 100, 5); */
+}
+.main{
+width: 200px;
+border: 2px solid rgb(0, 0, 0);
+box-shadow: 0 0 10px 0 rgb(2, 65, 255);
+font-size: 14px;
+color: rgb(122, 194, 155);
+}
+p{
+  height: 25px;
+  margin: 0;
+}
+.gender{
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.phone{
+  color: #61dafb;
+}
+.searchPeople{
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  background: rgba(128, 128, 128, 0.453);
+  border:none;
+  width: 200px;
+}
+
+.male{
+  background-image: url("./img/male.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  position: absolute;
+  top:-30px;
+right: 20px;
+}
+.female{
+  background-image: url("./img/female.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  position: absolute;
+  top:-30px;
+right: 20px;
+}
+.nonGender{
+  background-image: url("./img/nonGender.png");
+
+  width: 50px;
+  height: 40px;
+  background-size: cover;
+  position: absolute;
+  top:-30px;
+right: 10px;
+}
+span{
+  color: aliceblue;
+}
+.checkBox{
+  margin-bottom: 20px;
+  border:2px solid rgb(9, 47, 186);
+ 
+}
